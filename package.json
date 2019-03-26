@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fp-challenge",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "Enforce rules of Functional Programming challenge",
   "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "author": "Matthijs Groen",

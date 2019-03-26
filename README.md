@@ -49,6 +49,6 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "plugins": ["fp-challenge"],
-  "extends": ["fp-challenge/recommended"]
+  "extends": ["plugin:fp-challenge/recommended"]
 }
 ```
