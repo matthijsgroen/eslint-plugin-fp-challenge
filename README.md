@@ -35,7 +35,11 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "fp-challenge/no-self-reference": ["error"]
+    "fp-challenge/no-self-reference": ["error"],
+    "fp-challenge/no-calling-object-members": [
+      "error",
+      { "except": ["console.log"] }
+    ]
   }
 }
 ```
