@@ -38,7 +38,8 @@ Then configure the rules you want to use under the rules section.
     "fp-challenge/no-self-reference": "error",
     "fp-challenge/no-calling-object-members": [
       "error",
-      { "except": ["console.log"] }
+      "always",
+      { "ignore": ["console.log"] }
     ],
     "fp-challenge/no-use-function": "error",
     "fp-challenge/no-mutable-state": "error",
